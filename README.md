@@ -1,39 +1,46 @@
-# Advanced Nav Animations 🧭
+<div align="center">
 
-> **Designed & Curated by [Harshil Chavda](https://github.com/Harshil-Chavda)**
+# Advanced Navigation Animations
 
-A powerful library of **10 Interactive Navigation Styles** designed to make your web menus stand out. This collection ranges from CSS-only micro-interactions to JavaScript-enhanced 3D effects.
+**Ten copy-friendly navigation interactions built with CSS and vanilla JavaScript.**
 
-## 🎨 The Collection
-1.  **3D Rolling Cube:** A classic CSS 3D transform that reveals text on hover.
-2.  **Cyber Glitch:** An aggressive RGB split and skew effect.
-3.  **Magnetic Pull:** A JS-powered button that follows your cursor physics.
-4.  **Neon Flicker:** Glowing text shadow simulation.
-5.  **Bracket Slide:** Decorative elements sliding in from the sides.
-6.  **Progress Fill:** A left-to-right color fill effect.
-7.  **Hacker Scramble:** A JavaScript decryption effect on hover.
-8.  **Minimal Dot:** A clean, rising dot indicator.
-9.  **Perspective Tilt:** 3D rotational tilt based on mouse position.
-10. **Spotlight Shine:** A passing linear-gradient mask.
+[![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/Vanilla_JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827)](https://developer.mozilla.org/docs/Web/JavaScript)
+[![Dependencies](https://img.shields.io/badge/Dependencies-None-10B981?style=flat-square)](#)
 
-## 🛠 Tech Stack
-* **CSS3:** `transform-style: preserve-3d`, `clip-path`, `text-shadow`.
-* **JavaScript (Vanilla):** Used for Magnetic, Hacker Scramble, and Tilt calculations.
-* **No Libraries:** Pure, copy-paste ready code.
+[View the live examples](https://harshil-chavda.github.io/advanced-nav-animations/nav-animations.html)
 
-## 🚀 Usage
-1.  Clone the repository:
-    ```bash
-    git clone [https://github.com/Harshil-Chavda/advanced-nav-animations.git](https://github.com/Harshil-Chavda/advanced-nav-animations.git)
-    ```
-2.  Open `nav-animations.html` to test the interactions.
-3.  **Integration:** Copy the CSS class (e.g., `.style-7`) and the small JS snippet (if required) into your project.
+</div>
 
----
+## Included interactions
 
-## 🌐 Connect
-* **GitHub:** [Harshil-Chavda](https://github.com/Harshil-Chavda)
-* **LinkedIn:** [Harshil Chavda](https://www.linkedin.com/in/harshil-chavda-webdev/)
-* **Instagram:** [@harshil_chavda__](https://www.instagram.com/harshil_chavda__/)
+1. Three-dimensional rolling cube
+2. RGB glitch treatment
+3. Pointer-responsive magnetic pull
+4. Neon flicker
+5. Sliding decorative brackets
+6. Directional progress fill
+7. Character-scramble reveal
+8. Minimal dot indicator
+9. Pointer-based perspective tilt
+10. Animated spotlight shine
 
-*© 2025 Harshil Chavda. All Rights Reserved.*
+## Run locally
+
+```bash
+git clone https://github.com/Harshil-Chavda/advanced-nav-animations.git
+cd advanced-nav-animations
+```
+
+Open `nav-animations.html` in a browser. Copy the HTML and CSS for an interaction and include its JavaScript only when the selected example requires it.
+
+## Production guidance
+
+- Provide visible keyboard focus states.
+- Respect `prefers-reduced-motion` for strong animation.
+- Confirm that labels remain readable before and during transitions.
+- Use motion to clarify interaction, not to delay navigation.
+
+## Author
+
+Designed and maintained by [Harshil Chavda](https://github.com/Harshil-Chavda).
